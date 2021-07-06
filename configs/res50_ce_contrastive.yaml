@@ -1,0 +1,7 @@
+MODEL:
+  NAME: resnet50
+LOSS:
+  CLA_LOSS: crossentropy
+  PAIR_LOSS: contrastive
+  PAIR_S: 16.
+TAG: res50-crossentropy-contrastive

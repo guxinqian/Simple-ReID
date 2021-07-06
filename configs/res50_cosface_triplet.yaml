@@ -1,0 +1,9 @@
+MODEL:
+  NAME: resnet50
+LOSS:
+  CLA_LOSS: cosface
+  CLA_S: 16.
+  CLA_M: 0.1
+  PAIR_LOSS: triplet
+  PAIR_M: 0.3
+TAG: res50-cosface-triplet

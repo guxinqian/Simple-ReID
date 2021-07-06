@@ -1,0 +1,10 @@
+MODEL:
+  NAME: resnet50
+LOSS:
+  CLA_LOSS: circle
+  CLA_S: 96.
+  CLA_M: 0.3
+  PAIR_LOSS: circle
+  PAIR_S: 48.
+  PAIR_M: 0.35
+TAG: res50-circle-paircircle

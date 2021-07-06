@@ -1,0 +1,7 @@
+MODEL:
+  NAME: resnet50
+LOSS:
+  CLA_LOSS: crossentropy
+  PAIR_LOSS: triplet
+  PAIR_M: 0.3
+TAG: res50-ce-triplet
